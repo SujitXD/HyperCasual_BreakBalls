@@ -1,0 +1,566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7217071083508398266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7217071083508398264}
+  - component: {fileID: 7217071083508398265}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7217071083508398264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7217071083508398266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0000076293945, y: 18.500002, z: 30937.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7217071083508398265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7217071083508398266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9114445d5e781fb41842533fd2d3f0a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - audioname: MainMenu
+    clip: {fileID: 8300000, guid: 86bdd7fd26981184fb0b0e6f1b2986c6, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: IntroStage1
+    clip: {fileID: 8300000, guid: 234c5ec3141e9974db163b10fb65db30, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: IntroStage2
+    clip: {fileID: 8300000, guid: 36a417bfd1c56c1468204c273916033e, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: IntroStage3
+    clip: {fileID: 8300000, guid: a00b4e129e8ac3344ade96dfa5b72e38, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: IntroStage3_1
+    clip: {fileID: 8300000, guid: 620ff5cdae5a74c41ba746f5c6532efb, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP1_1
+    clip: {fileID: 8300000, guid: 508ef146c4e64f742939618b1c349c49, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP1_2
+    clip: {fileID: 8300000, guid: 8ea1572b85e31fb4cb1b010f0fef8aec, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP1_3
+    clip: {fileID: 8300000, guid: 9be38c8f157ba7a4592739cbce9a1385, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP2_1
+    clip: {fileID: 8300000, guid: c6bc2866b7914d64a8752ecbf699342a, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP2_2
+    clip: {fileID: 8300000, guid: fb0db8c462809d043bf24464f909c785, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP2_3
+    clip: {fileID: 8300000, guid: 91c6c4b2dd6e3fa438ed3f43160ad1a8, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP2_4
+    clip: {fileID: 8300000, guid: 9b4aa1e40a01a9b41a7fdf1f960598a9, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP3_1
+    clip: {fileID: 8300000, guid: 6de499c987d3e0b40be6454a3af499ff, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP3_2
+    clip: {fileID: 8300000, guid: 0db256c211792154d89d3ed086c8ba2d, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP3_3
+    clip: {fileID: 8300000, guid: 949a08700da43084ba20296e7f6dec15, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP3_4
+    clip: {fileID: 8300000, guid: f9bf87ae41b4be349a6d719640f38aaa, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP4_1
+    clip: {fileID: 8300000, guid: 862089fa441a91449bdfaea717e53f4c, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP4_2
+    clip: {fileID: 8300000, guid: 4700b0dfb7736b04bbefda6dc59d3ac1, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP4_3
+    clip: {fileID: 8300000, guid: 33e134686d3a98f4b998c9a5fb53bfd4, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP5_1
+    clip: {fileID: 8300000, guid: c1bb44dc94c95b34b8763472930443c2, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP5_2
+    clip: {fileID: 8300000, guid: ba6bbd337dce7bf45862a725c71d0fed, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP5_3
+    clip: {fileID: 8300000, guid: 8a89199eda6ce8d43aeb8ffefabd615d, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP5_4
+    clip: {fileID: 8300000, guid: 48fae00c67977cc499c619a39cb35a9c, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP6_1
+    clip: {fileID: 8300000, guid: 40f5b8f35dcf2c34caae8cd9c58d2ff2, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP6_2
+    clip: {fileID: 8300000, guid: 1e76080ca4d245b4aba2fac83ae86f5a, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP6_2_2
+    clip: {fileID: 8300000, guid: 801d849e8714c804ba1cadd8a5af4462, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP6_3
+    clip: {fileID: 8300000, guid: 50c288da2aedacf4d98be4639bd3e902, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP7_1
+    clip: {fileID: 8300000, guid: da43eff335d01064ba2132d5367919d1, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP7_2
+    clip: {fileID: 8300000, guid: 4416768cf973ba944938a4b80e30203f, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP7_3
+    clip: {fileID: 8300000, guid: 458eca0048ed9974eb273d43e4f26403, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP8_1
+    clip: {fileID: 8300000, guid: c6829a3e1d83dc64ea31978d723739bd, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP8_2
+    clip: {fileID: 8300000, guid: f45e120e626d888419da04c21ce0bc79, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP8_3
+    clip: {fileID: 8300000, guid: af104b405d684aa449cb51fdab0c740b, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP9_1
+    clip: {fileID: 8300000, guid: 236a9bb2577f67d479e1c5cb228e6a11, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP9_2
+    clip: {fileID: 8300000, guid: d338f5ffccc24de48acaec95f5bb9484, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP9_3
+    clip: {fileID: 8300000, guid: f67146c08f688b2489042ecaeab0f599, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP9_3_2
+    clip: {fileID: 8300000, guid: 5b51c7cad20878c438b9dd46a0050d22, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP10_1
+    clip: {fileID: 8300000, guid: 734cac43f368fdc4985de25b88d15f46, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP10_2
+    clip: {fileID: 8300000, guid: 8fc64163df6e093488d8dc8e38ff7fbd, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP10_3
+    clip: {fileID: 8300000, guid: 1e6cf86965d22ac47b001cf2b19e4658, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP11_1
+    clip: {fileID: 8300000, guid: d0eef80a332e00e408676f6b28d8ea80, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP11_2
+    clip: {fileID: 8300000, guid: a8fbe411b2a1cfe4483dcf5728f12023, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP11_3
+    clip: {fileID: 8300000, guid: 94e4d4b589c49714ca00cf016a67df37, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP11_4
+    clip: {fileID: 8300000, guid: 4a177884e0d083749b33bcf17942e969, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: CP11_4_1
+    clip: {fileID: 8300000, guid: 82d2394e22baad74f81db57f1abb7db0, type: 3}
+    audioOutput: {fileID: 24300002, guid: 57d5b410cbce49144a943e198c66189d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioname: LvlClear0
+    clip: {fileID: 8300000, guid: e2e3680a8bb70064bb58512b863a0bb5, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear1
+    clip: {fileID: 8300000, guid: e7f7053d790bfc84e87a27799e2a2a24, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear2
+    clip: {fileID: 8300000, guid: 0c0e0e97da3a30c49ab8cefdc555592d, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear3
+    clip: {fileID: 8300000, guid: b0bc682170ab3b04a8186b35baded023, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear4
+    clip: {fileID: 8300000, guid: 062b184ffc9ccab49a3dd21102629587, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear5
+    clip: {fileID: 8300000, guid: 849ca0585e0648b4fb82a8d0d9786893, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear6
+    clip: {fileID: 8300000, guid: 3ab88f2ee50131842ba6b3f232052a18, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear7
+    clip: {fileID: 8300000, guid: 4dd60beb457138440afc2f9000714de6, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear8
+    clip: {fileID: 8300000, guid: 1820837153a706e48b1c944a0e918e94, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear9
+    clip: {fileID: 8300000, guid: c8cf18da27cb3c444b7c9b5ca58c36b4, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear10
+    clip: {fileID: 8300000, guid: d46897599a721814e8e2315407f9a0aa, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LvlClear11
+    clip: {fileID: 8300000, guid: 09d8e43f5d7a2444a9f11066155b5b46, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: BallSwoosh
+    clip: {fileID: 8300000, guid: 1bcd96d0ed40db941a78fc98fa9dd55e, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Click
+    clip: {fileID: 8300000, guid: b073eba9a4f7d824f84fc01fe848ef4c, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Crash
+    clip: {fileID: 8300000, guid: 7e0e01008b5225042b2bc11d0054315b, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Door
+    clip: {fileID: 8300000, guid: 80e19bf5396fa4740b6b75bb21a0b823, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Explosion
+    clip: {fileID: 8300000, guid: b4d62e8af11f2884091aa8bc04f1556f, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Fail
+    clip: {fileID: 8300000, guid: 92ec6bd75f803f34885e824a77606d45, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: FlyCube
+    clip: {fileID: 8300000, guid: a2ccb256faa19ab418b5304fdd8b4317, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: PyramindBreak
+    clip: {fileID: 8300000, guid: 9ff83220c0dc109478bf59e886b058a7, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: GlassPaneBreak
+    clip: {fileID: 8300000, guid: 73675d889592c46499074243c646ee1b, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: ItemPickup
+    clip: {fileID: 8300000, guid: 7d2952fbcac75484c8333a66565c3e8b, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LaserLoop
+    clip: {fileID: 8300000, guid: f068f7fc17883c640bde0b8b1563908c, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: LaserHit
+    clip: {fileID: 8300000, guid: 570f3f2d6ac6a4945922937962fb337a, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: MenuToGame
+    clip: {fileID: 8300000, guid: 4db382aab2582cd48bf842286319613f, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Multi_Inc
+    clip: {fileID: 8300000, guid: 37334e7348dae144892113567f590045, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Multi_Reset
+    clip: {fileID: 8300000, guid: e92864403efa67d4f88fef5fd6a2439f, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Rewind
+    clip: {fileID: 8300000, guid: 5d49c7409a8fc67468e7f5a1804e92ce, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioname: Wall
+    clip: {fileID: 8300000, guid: ee861b4b16111fb4f89c2c20c8c9624d, type: 3}
+    audioOutput: {fileID: 24300002, guid: c7d31aec67d7d7a49accbaef5f69a11d, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  dontDestroyOnLoad: 1

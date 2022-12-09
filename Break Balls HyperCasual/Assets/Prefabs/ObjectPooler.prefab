@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5294109540395535957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5294109540395535947}
+  - component: {fileID: 5294109540395535946}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5294109540395535947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5294109540395535957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5294109540395535946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5294109540395535957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195fcb833b9a13d4aa5df15e20302f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Ball
+    prefab: {fileID: 3307520826257181963, guid: 81fa8862c7c998048aca7b1c7b74f40b, type: 3}
+    size: 300
+  - tag: MeshCutter
+    prefab: {fileID: 5858069854523009099, guid: 9b9de1660181f094d9324bf6481c0615, type: 3}
+    size: 20
+  - tag: MachineBallUI
+    prefab: {fileID: 1184397582105166002, guid: 967121fdc719982448d3504b02201f79, type: 3}
+    size: 5
+  - tag: FireBallUI
+    prefab: {fileID: 8632926394829236437, guid: 682f2153d15298f4982e1f03b658928a, type: 3}
+    size: 5
+  - tag: SlowMoUI
+    prefab: {fileID: 5965247345441258085, guid: b9a5fdcdb65cc4b408a1dac2a9553832, type: 3}
+    size: 5
+  - tag: CrystalHitScore
+    prefab: {fileID: 4280686951171772626, guid: ca4e756bc1aa8054db15d9a6d4c9bdb7, type: 3}
+    size: 5
+  - tag: IncrementCountUI
+    prefab: {fileID: 313882883376013739, guid: 82e422b5a5c69d84b9dcd4d18c7eed6d, type: 3}
+    size: 5
+  - tag: PsuedoBall
+    prefab: {fileID: 3307520826257181963, guid: 0e6ab9f201ff8cc45bf53b235b15e62c, type: 3}
+    size: 30

@@ -1,0 +1,2744 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Editors\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Github Unity Projects/BreakBalls-HyperCasual/Break Balls HyperCasual
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62272
+Successfully changed project path to: F:/Github Unity Projects/BreakBalls-HyperCasual/Break Balls HyperCasual
+F:/Github Unity Projects/BreakBalls-HyperCasual/Break Balls HyperCasual
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path E:/Unity Editors/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Github Unity Projects/BreakBalls-HyperCasual/Break Balls HyperCasual/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   31.0.15.1694
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Initialize mono
+Mono path[0] = 'E:/Unity Editors/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Editors/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity Editors/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Editors/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000753 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.51 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (562ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.9 MB.
+System memory in use after: 230.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 4051.
+Total: 4.996600 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.183400 ms MarkObjects: 2.359900 ms  DeleteObjects: 2.149900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Levels/Intro Stage/Part 1/Stairs 1.mat
+  artifactKey: Guid(7f8a9e28c95fd6c43bd494c265a2e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Levels/Intro Stage/Part 1/Stairs 1.mat using Guid(7f8a9e28c95fd6c43bd494c265a2e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667fada5a762e9d5e5fe0ccf41002943') in 0.306861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 259.458675 seconds.
+  path: Assets/Props
+  artifactKey: Guid(3916bb3d5c4fa6044a661c19dfd4f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props using Guid(3916bb3d5c4fa6044a661c19dfd4f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c14d8e4b9e3df83dc71253bef2031ef') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.325354 seconds.
+  path: Assets/Props/Arrow.fbx
+  artifactKey: Guid(61070abf57cb4d446925a31cf0569964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow.fbx using Guid(61070abf57cb4d446925a31cf0569964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30e80d05dc8d4154f7336b395a44891') in 0.109223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.823518 seconds.
+  path: Assets/Props/Arrow
+  artifactKey: Guid(5319167a41bde2b4e8ecafdcb3ca59b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow using Guid(5319167a41bde2b4e8ecafdcb3ca59b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a740e898dc50b36ee01c06f5714da9') in 0.022851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.779089 seconds.
+  path: Assets/Props/Arrow/Arrow.fbx
+  artifactKey: Guid(61070abf57cb4d446925a31cf0569964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Arrow.fbx using Guid(61070abf57cb4d446925a31cf0569964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4f118bdbd051e2045019bc948123c0') in 0.027082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Props/Arrow/material_0.mat
+  artifactKey: Guid(7f1dd7a8140b9114ba4026808708d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/material_0.mat using Guid(7f1dd7a8140b9114ba4026808708d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74277749f16d726e0a102de8e718c133') in 0.018235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.568198 seconds.
+  path: Assets/Props/Arrow/material_0.mat
+  artifactKey: Guid(7f1dd7a8140b9114ba4026808708d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/material_0.mat using Guid(7f1dd7a8140b9114ba4026808708d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62642248dc604e7298cc93efb19c3fc1') in 0.011543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.682130 seconds.
+  path: Assets/Props/Arrow/Copter.fbx
+  artifactKey: Guid(431406396438919458653072683e0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Copter.fbx using Guid(431406396438919458653072683e0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf4568139132feb225c67f45594004') in 0.200476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.584584 seconds.
+  path: Assets/Props/Arrow/Copter.fbx
+  artifactKey: Guid(431406396438919458653072683e0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Copter.fbx using Guid(431406396438919458653072683e0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40017fa54d075c6eaace3078c939791d') in 0.126136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Props/Arrow/Material.027.mat
+  artifactKey: Guid(4ac6fe28748cd3545bbee4e9b9f7c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.027.mat using Guid(4ac6fe28748cd3545bbee4e9b9f7c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fca09cda17cce857474b4f63661a71') in 0.023495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Props/Arrow/Material.029.mat
+  artifactKey: Guid(073c18a9e56ac9f4a84e5fe944ba246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.029.mat using Guid(073c18a9e56ac9f4a84e5fe944ba246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce2314551ebe27c21ec89ab10839af7') in 0.026718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Props/Arrow/Material.025.mat
+  artifactKey: Guid(b058418725605234ab6f409784952869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.025.mat using Guid(b058418725605234ab6f409784952869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90acf207b0adc771c90b6dd7a80d6a4') in 0.012993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Props/Arrow/Material.031.mat
+  artifactKey: Guid(1ccbb5446975e8941af7955a41eedeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.031.mat using Guid(1ccbb5446975e8941af7955a41eedeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0da3a4e52953af1aea39c2f878eae98') in 0.014563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Props/Arrow/Material.026.mat
+  artifactKey: Guid(fed35b9bc5437a34c85ec9092cfc0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.026.mat using Guid(fed35b9bc5437a34c85ec9092cfc0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a273aaf4754c7d24bd83d03e6d96505') in 0.013912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Props/Arrow/Material.032.mat
+  artifactKey: Guid(fdad94b65d9f2724d8d5e3723674e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.032.mat using Guid(fdad94b65d9f2724d8d5e3723674e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b0f9e8529270d0fa5ab398571dfa49') in 0.013762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Props/Arrow/Material.028.mat
+  artifactKey: Guid(d6c25490801ff6943907ee77a7282b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.028.mat using Guid(d6c25490801ff6943907ee77a7282b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f48ececbefd8339468c31737b28a6') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Props/Arrow/Material.030.mat
+  artifactKey: Guid(622508f101870484cb0d130c963d67ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.030.mat using Guid(622508f101870484cb0d130c963d67ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a40b8e1c2982d3fe1784eb972804dd0') in 0.014507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Props/Arrow/Material.033.mat
+  artifactKey: Guid(6f35b806df518524289a7f8cfdad01c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Material.033.mat using Guid(6f35b806df518524289a7f8cfdad01c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cabdc357a7f14d8686de98274ef101') in 0.013697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 253.590998 seconds.
+  path: Assets/Prefabs/Obstacle/Square Small Shatter.prefab
+  artifactKey: Guid(b087c8fc3446f3647a99a4b329711fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Square Small Shatter.prefab using Guid(b087c8fc3446f3647a99a4b329711fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7e9995cadd7b76d502906ac425324a') in 0.110492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Prefabs/Obstacle/SquareSlab.prefab
+  artifactKey: Guid(b9447aca86a6f884e89d9049e5162822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/SquareSlab.prefab using Guid(b9447aca86a6f884e89d9049e5162822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177dacb4b2f246cbae400a58e70296b4') in 0.139456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefabs/Obstacle/TriangleConnected_3 Ropes.prefab
+  artifactKey: Guid(384ec54c4bf2fb042bb50bd75d906de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/TriangleConnected_3 Ropes.prefab using Guid(384ec54c4bf2fb042bb50bd75d906de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913dc984c24348f75ba5216c52dfb334') in 0.052366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Prefabs/Obstacle/TallGlassShatter.prefab
+  artifactKey: Guid(d31dd43db7439c54dac9ee7a56797591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/TallGlassShatter.prefab using Guid(d31dd43db7439c54dac9ee7a56797591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba833131fea49dd76e790ceed54e1cb1') in 0.125760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Obstacle/Tall Slim Shatter.prefab
+  artifactKey: Guid(550b09c0f99cd5541a1f266880e67005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Tall Slim Shatter.prefab using Guid(550b09c0f99cd5541a1f266880e67005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821f9c95843cd9bc263c10bcb2935b50') in 0.045311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/Obstacle/Tall Glass Shatter.fbx
+  artifactKey: Guid(353b6d7d4bed6e34392baf132b3928dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Tall Glass Shatter.fbx using Guid(353b6d7d4bed6e34392baf132b3928dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6504ec37bc22f0a975ed6859e20572') in 0.456658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/Obstacle/Star Crystal.prefab
+  artifactKey: Guid(440ac46cc28ebbb4fbf001767ccf71e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Star Crystal.prefab using Guid(440ac46cc28ebbb4fbf001767ccf71e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b571c990f3abb90acc09127a72204d7a') in 0.084904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs/Obstacle/Thick Fan.prefab
+  artifactKey: Guid(dab6c9dae3026584c8e5bce05a48cfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Thick Fan.prefab using Guid(dab6c9dae3026584c8e5bce05a48cfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74db72de11217b96af09eebfd298f705') in 0.070961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Prefabs/Obstacle/Tong Shatter.prefab
+  artifactKey: Guid(e46ce9f3b5799094aad96071387a4101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Tong Shatter.prefab using Guid(e46ce9f3b5799094aad96071387a4101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f4d545afc54cf77add2233de4f1bde') in 0.037429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Obstacle/UpperPopCube.prefab
+  artifactKey: Guid(c715ce2624aa1854b8af0f6025649682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/UpperPopCube.prefab using Guid(c715ce2624aa1854b8af0f6025649682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e71d25279a285d0af47979c75ad2c59') in 0.044402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.956174 seconds.
+  path: Assets/Prefabs/Obstacle/MoveObject1 1.prefab
+  artifactKey: Guid(2c6fb2e426d541b4a9ae833d083b30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MoveObject1 1.prefab using Guid(2c6fb2e426d541b4a9ae833d083b30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8f2bf607fee2a0ab5a1ac113d6a41d') in 0.074327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.695447 seconds.
+  path: Assets/Prefabs/Obstacle/MoveObject1.prefab
+  artifactKey: Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MoveObject1.prefab using Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bcd26fa28ef3218311dbaebeb76aaa') in 0.042965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.083614 seconds.
+  path: Assets/Prefabs/Obstacle/MoveObject1.prefab
+  artifactKey: Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MoveObject1.prefab using Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e345562e134cdcdaae27570f1c8fb5c1') in 0.025423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.324103 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Door.prefab
+  artifactKey: Guid(1e13a181848ece4499dbd208ae4ce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Door.prefab using Guid(1e13a181848ece4499dbd208ae4ce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88de62b49389f156f370a3102f960963') in 0.038454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.852260 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Door.prefab
+  artifactKey: Guid(1e13a181848ece4499dbd208ae4ce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Door.prefab using Guid(1e13a181848ece4499dbd208ae4ce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a68d65e22aa6c77d8f22fd66727ca1') in 0.016078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.783715 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Door.prefab
+  artifactKey: Guid(1e13a181848ece4499dbd208ae4ce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Door.prefab using Guid(1e13a181848ece4499dbd208ae4ce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0123bc5ed2d101b1fe13af8b6a4a8199') in 0.014530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.408899 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/textures
+  artifactKey: Guid(5039edadd4ee3b44d8d2b8bb34b75160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/textures using Guid(5039edadd4ee3b44d8d2b8bb34b75160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d544e9cefbb070822d4d984d68454e') in 0.008944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043799 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/textures/FGLevel_DoorDash.jpg
+  artifactKey: Guid(df96006aa1ded4b4d90f3ade362f6a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/textures/FGLevel_DoorDash.jpg using Guid(df96006aa1ded4b4d90f3ade362f6a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8c8cb431eea04c471e4ca24c7e26e2') in 0.075504 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.549244 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8717ms)
+		BeginReloadAssembly (5401ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (453ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (38ms)
+			CreateAndSetChildDomain (2907ms)
+		EndReloadAssembly (3112ms)
+			LoadAssemblies (2595ms)
+			RebuildTransferFunctionScriptingTraits (36ms)
+			SetupTypeCache (751ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (12ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.5 MB.
+System memory in use after: 224.9 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4102.
+Total: 16.617500 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.159500 ms MarkObjects: 13.807000 ms  DeleteObjects: 2.372200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 944.577321 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(d424f29d3819d9e4680e7288bd13e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(d424f29d3819d9e4680e7288bd13e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b358abbd6a136d8db86a053e7860303a') in 0.507480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.510388 seconds.
+  path: Assets/Prefabs/Waves CP6.prefab
+  artifactKey: Guid(a2b21c2e20e5c27419a3fd427366e2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Waves CP6.prefab using Guid(a2b21c2e20e5c27419a3fd427366e2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df11371f070ba2036c27bdce0946653') in 0.201930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.862757 seconds.
+  path: Assets/Prefabs/Copter.prefab
+  artifactKey: Guid(7a7d71a7c7260564b8e986e4a758d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Copter.prefab using Guid(7a7d71a7c7260564b8e986e4a758d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c105aa10fdbded0ca96d37a1084fabf8') in 0.175243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 612.206199 seconds.
+  path: Assets/Prefabs/Arrow.prefab
+  artifactKey: Guid(c3f7824f0442fc74bbc14e229fbcd9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Arrow.prefab using Guid(c3f7824f0442fc74bbc14e229fbcd9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f013db3e8b09637f9baa91b9af970d0') in 0.047047 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.2 MB.
+System memory in use after: 225.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4107.
+Total: 5.206000 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.169800 ms MarkObjects: 2.341500 ms  DeleteObjects: 2.401600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.2 MB.
+System memory in use after: 225.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4110.
+Total: 5.143300 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.182800 ms MarkObjects: 2.249000 ms  DeleteObjects: 2.393800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 621.799224 seconds.
+  path: Assets/Props/Arrow/Arrow.prefab
+  artifactKey: Guid(6edc4c2e77cf5744e88b02444622d434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Arrow.prefab using Guid(6edc4c2e77cf5744e88b02444622d434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990e93e38f163d7be85484530f75edfb') in 0.284107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.543581 seconds.
+  path: Assets/Props/Arrow/Side Arrows.prefab
+  artifactKey: Guid(a7b0e25914a20dd45a9e490efd3eb974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Arrow/Side Arrows.prefab using Guid(a7b0e25914a20dd45a9e490efd3eb974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161188e7a091084282cff40e61e5b608') in 0.017438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 526.483531 seconds.
+  path: Assets/Scripts/Placement.cs
+  artifactKey: Guid(46fafcf37323d6a45be53f3ed6fbf44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Placement.cs using Guid(46fafcf37323d6a45be53f3ed6fbf44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9018c8d4a9908f54db00ad4f71508ffd') in 0.035261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.336645 seconds.
+  path: Assets/Scripts/Placement1.cs
+  artifactKey: Guid(e3cec00821a2a414d8808b89495dc063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Placement1.cs using Guid(e3cec00821a2a414d8808b89495dc063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb54bd6d0dacf9dee95af9fffcc5166') in 0.007944 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.228659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1079ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.3 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4114.
+Total: 5.609500 ms (FindLiveObjects: 0.375600 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.574500 ms  DeleteObjects: 2.511700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003512 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1015ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.3 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4117.
+Total: 5.268100 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.306000 ms  DeleteObjects: 2.508900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003670 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.3 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4120.
+Total: 6.908000 ms (FindLiveObjects: 0.554400 ms CreateObjectMapping: 0.335900 ms MarkObjects: 2.746100 ms  DeleteObjects: 3.269700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1210.660683 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Door dash wall .blend
+  artifactKey: Guid(e550b9d3ae146614e892f3e4fc2a8cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Door dash wall .blend using Guid(e550b9d3ae146614e892f3e4fc2a8cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b8f0306b57e41a7837483dae9dfa5d') in 0.612528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.016.mat
+  artifactKey: Guid(a2166a45f591a544b9dddf3b9d7f5742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.016.mat using Guid(a2166a45f591a544b9dddf3b9d7f5742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c464eebb1e5f6902e2be44e77f2fc9b') in 0.060153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.020.mat
+  artifactKey: Guid(30977d85895f6f84e95bec4a91c2a50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.020.mat using Guid(30977d85895f6f84e95bec4a91c2a50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0da9ad5a8afbbe48ce79aa3614f95e5') in 0.013791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.017.mat
+  artifactKey: Guid(de20daee8839984428314057465d1034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.017.mat using Guid(de20daee8839984428314057465d1034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed35c6dda0195ba0ff1691b4256503c8') in 0.014619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.012.mat
+  artifactKey: Guid(187524ebc67521a4b9cb25843688c108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.012.mat using Guid(187524ebc67521a4b9cb25843688c108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95dcaddc82eec181f4ea5f2849272da') in 0.013664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.019.mat
+  artifactKey: Guid(edb15aed21c9ea84dbfd7c98bae3e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.019.mat using Guid(edb15aed21c9ea84dbfd7c98bae3e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee14811a0bcaadd396510b3e4714ee5') in 0.018686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.018.mat
+  artifactKey: Guid(627f664ce9a1ef142b984f91b7f162a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.018.mat using Guid(627f664ce9a1ef142b984f91b7f162a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7fe51f6e1acef4e1090d8a92946306') in 0.013468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Props/fall-guys-door-dash-wall/source/Material.015.mat
+  artifactKey: Guid(01b17639c98bda843bd8660f1baa8fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/fall-guys-door-dash-wall/source/Material.015.mat using Guid(01b17639c98bda843bd8660f1baa8fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff943fe3ffae98ecab6a59a71da9fa') in 0.013777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.123600 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/AutoDoor.prefab
+  artifactKey: Guid(baa7afd892ec81d4cb226a3d436d800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/AutoDoor.prefab using Guid(baa7afd892ec81d4cb226a3d436d800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5859eaaa33010bc78d0988087fd289f') in 0.261758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/SlabObstacle.prefab
+  artifactKey: Guid(e5333aff60262d64c89459afcc05905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/SlabObstacle.prefab using Guid(e5333aff60262d64c89459afcc05905e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30292ffabca1e81b0e364aa2c6296a29') in 0.224435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab
+  artifactKey: Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab using Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9b9a2db3b9dab882e928615def420a') in 0.354086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2513.732208 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab
+  artifactKey: Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab using Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e8200a40883c2f922f50db3e6da07e') in 3.217213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.426463 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab
+  artifactKey: Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab using Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be57715321f1eb247cfd7e3fc824ea') in 1.562188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.321833 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab
+  artifactKey: Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab using Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcfed56a20024baabc6607c70048218') in 2.179624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 254.519971 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab
+  artifactKey: Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab using Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '805348be8184f1e2ff3249f56595cde0') in 6.306525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 226.906982 seconds.
+  path: Assets/Prefabs/Obstacle/2Way Star Crystal.prefab
+  artifactKey: Guid(7fa81dd4da27ff940a7da5b7c08f321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/2Way Star Crystal.prefab using Guid(7fa81dd4da27ff940a7da5b7c08f321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d2adf1c520ed74bac8514d9f85232e') in 4.412613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefabs/Obstacle/Checkpoint(5)Obstacles.prefab
+  artifactKey: Guid(6db7bbd6e21b2114282f3cb9707980b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Checkpoint(5)Obstacles.prefab using Guid(6db7bbd6e21b2114282f3cb9707980b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '9e9e3a5842e1092e1531c8bbea44819a') in 8.162154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefabs/Obstacle/Crystal Cube.prefab
+  artifactKey: Guid(542747d1d4c4d4446b9bb9626cdc1f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Crystal Cube.prefab using Guid(542747d1d4c4d4446b9bb9626cdc1f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac0cda4604aa7cf952cd34ceec426d4') in 0.135896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/Obstacle/Crystal Cone.prefab
+  artifactKey: Guid(1e69d9057525e0a4f926616d3d94e189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Crystal Cone.prefab using Guid(1e69d9057525e0a4f926616d3d94e189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '5a5b2c6b149b8c43240b5e90ba4f6e4d') in 0.109142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Prefabs/Obstacle/Crystal diamond.prefab
+  artifactKey: Guid(afb23cc9b7727bb4589c3626f9b4b0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Crystal diamond.prefab using Guid(afb23cc9b7727bb4589c3626f9b4b0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f233f8770d655f63bdf010fa17f569') in 0.066654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Obstacle/MoveObject1 1.prefab
+  artifactKey: Guid(2c6fb2e426d541b4a9ae833d083b30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MoveObject1 1.prefab using Guid(2c6fb2e426d541b4a9ae833d083b30d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '415fad4b8cfeac77967cb074a65c1c64') in 0.690144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefabs/Obstacle/MoveObject1.prefab
+  artifactKey: Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MoveObject1.prefab using Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e7281ab1c14970f5e4e62d440e9a8413') in 0.641675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefabs/Obstacle/Star Crystal.prefab
+  artifactKey: Guid(440ac46cc28ebbb4fbf001767ccf71e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Star Crystal.prefab using Guid(440ac46cc28ebbb4fbf001767ccf71e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c806731d2ae9f2ca38b52ef8bc7174f') in 0.050192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.736813 seconds.
+  path: Assets/Prefabs/Obstacle/Copter.prefab
+  artifactKey: Guid(16ba501a8cc8d9b40876af64b1ee99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Copter.prefab using Guid(16ba501a8cc8d9b40876af64b1ee99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d609679d290fa3cf41f6e3f038d4a3') in 0.095736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Obstacle/MoveObject1.prefab
+  artifactKey: Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MoveObject1.prefab using Guid(bd665e251895fe2479f4ba411c266175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '8ba9adc0c9920cbeb6ded9a446f6934e') in 0.051752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.158084 seconds.
+  path: Assets/Animation/Cube_022 (1).controller
+  artifactKey: Guid(1976a6048431ee74897b4bd982067a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Cube_022 (1).controller using Guid(1976a6048431ee74897b4bd982067a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3227feeb72e6b2679fe9efe5544e8b') in 0.037246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079138 seconds.
+  path: Assets/Models/Ring Shatter (1).fbx
+  artifactKey: Guid(6a8773b03b24dfd43a0ad521e7bce98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ring Shatter (1).fbx using Guid(6a8773b03b24dfd43a0ad521e7bce98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e273ce004d1aad3a719e0fa8c0df9865') in 0.342723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.828121 seconds.
+  path: Assets/Models/Crystal Cone/crystal cone.fbx
+  artifactKey: Guid(8bcb48c2ae09dde41be2dbbb6a65d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/crystal cone.fbx using Guid(8bcb48c2ae09dde41be2dbbb6a65d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be4b8a10db396a3a0c36fb36a430877') in 0.222355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110557 seconds.
+  path: Assets/Scripts/Ball.cs
+  artifactKey: Guid(53ba57316fb7dfb4890e2a6b5ebba43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ball.cs using Guid(53ba57316fb7dfb4890e2a6b5ebba43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e525d0fdc769fc0eec269e7f53fa273') in 0.005527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359602 seconds.
+  path: Assets/ICE_sushishop/Textures/Fakesnow.png
+  artifactKey: Guid(50c397b0cfd8e7f4cb233370c8999495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Textures/Fakesnow.png using Guid(50c397b0cfd8e7f4cb233370c8999495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e184375229af8ee72fb07472fd448fdb') in 0.667021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050048 seconds.
+  path: Assets/Scripts/Placement.cs
+  artifactKey: Guid(46fafcf37323d6a45be53f3ed6fbf44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Placement.cs using Guid(46fafcf37323d6a45be53f3ed6fbf44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1837042f3984bd188ac46e81ded7100d') in 0.016107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017986 seconds.
+  path: Assets/Scripts/Multiplier.cs
+  artifactKey: Guid(95841846c3c3aeb48bce115a3ba84538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Multiplier.cs using Guid(95841846c3c3aeb48bce115a3ba84538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f44a9f6cab6c57a212dd80ea4c70ad') in 0.026176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.730571 seconds.
+  path: Assets/Scripts/Base/Crystal.cs
+  artifactKey: Guid(43478a0345355384c89e4cefa1f9d885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Base/Crystal.cs using Guid(43478a0345355384c89e4cefa1f9d885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe563430ad40c4e19ff342e1fcc21c3') in 0.021620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195553 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Gate.controller
+  artifactKey: Guid(e4f62f4991277de40a265514b0cb5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Gate.controller using Guid(e4f62f4991277de40a265514b0cb5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2831339b9d38a3189873ea58a26780') in 0.006112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341069 seconds.
+  path: Assets/Animation/YMotion.anim
+  artifactKey: Guid(7ab28c97369d4a542b5c6819be4325a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/YMotion.anim using Guid(7ab28c97369d4a542b5c6819be4325a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88feb1f22d453d510700204b75db131') in 0.024606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.574463 seconds.
+  path: Assets/TextMesh Pro/ARCO for OSX SDF.asset
+  artifactKey: Guid(6977eaeed9dbb4743a56d140280d72ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/ARCO for OSX SDF.asset using Guid(6977eaeed9dbb4743a56d140280d72ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c85cfa334f6480bb5a184d1d84f853') in 0.615074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056004 seconds.
+  path: Assets/Epic Toon FX/Textures/circle.png
+  artifactKey: Guid(155f67fd8750f8e4e83c8efb1731f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/circle.png using Guid(155f67fd8750f8e4e83c8efb1731f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8defe3a1688ac9827a91f761998c7f3') in 0.070586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190888 seconds.
+  path: Assets/Models/Crystal Cone/crystalBroked.mat
+  artifactKey: Guid(6d668b509339f50408ba54d68c5791fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/crystalBroked.mat using Guid(6d668b509339f50408ba54d68c5791fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122a05ad0e9f000f5b65c6107b4d15c4') in 0.029900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.156544 seconds.
+  path: Assets/ICE_sushishop/Textures/istockphoto-466513257-170667a.jpg
+  artifactKey: Guid(d9aa740889960f64abd342ae6586f2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Textures/istockphoto-466513257-170667a.jpg using Guid(d9aa740889960f64abd342ae6586f2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f48acfb2cf639727a8fd9156460e70b') in 0.056314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437499 seconds.
+  path: Assets/Scripts/CharacterController.cs
+  artifactKey: Guid(b7e4b3a630b10784a88204247978ff69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterController.cs using Guid(b7e4b3a630b10784a88204247978ff69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5b7c547e09add7b75436df6f42ac16') in 0.052951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.127907 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Smoke/StinkyCloud.prefab
+  artifactKey: Guid(e7c3a9353c0302b4cb1fab702e1db14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Smoke/StinkyCloud.prefab using Guid(e7c3a9353c0302b4cb1fab702e1db14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20e467e957e580d39d8ce62014bd5e3') in 0.172584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339049 seconds.
+  path: Assets/Models/Levels/Intro Stage/Segment 2/Dark Start.fbx
+  artifactKey: Guid(2a6969104e7de0d42822a602557e9640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Levels/Intro Stage/Segment 2/Dark Start.fbx using Guid(2a6969104e7de0d42822a602557e9640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e58fc92e1252d4c6101ae0cb1816dc') in 0.346071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198069 seconds.
+  path: Assets/Epic Toon FX/Textures/cloud_2x2_soft_translucent.png
+  artifactKey: Guid(0c65117d92d2e6647929b2d746376cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/cloud_2x2_soft_translucent.png using Guid(0c65117d92d2e6647929b2d746376cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a5c094b27e0e7ab213963a9c3969ec') in 0.020124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.510732 seconds.
+  path: Assets/TextMesh Pro/ARCO for OSX.otf
+  artifactKey: Guid(02e0af280e9444744bc140d00e56718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/ARCO for OSX.otf using Guid(02e0af280e9444744bc140d00e56718f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4d51b105523462cf0818e535afe7e2') in 0.137028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103570 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd163513d6316a5d7e6abe4293a6ecb6b') in 0.015998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270158 seconds.
+  path: Assets/ICE_sushishop/Textures/Normal_3.png
+  artifactKey: Guid(fbba011cc6fa1474294f6700f3e9ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Textures/Normal_3.png using Guid(fbba011cc6fa1474294f6700f3e9ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c902da35bddff9cf17d13f76ea7441') in 0.052354 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.75 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10222ms)
+		BeginReloadAssembly (7622ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (480ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (7ms)
+			CreateAndSetChildDomain (4176ms)
+		EndReloadAssembly (2278ms)
+			LoadAssemblies (751ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (664ms)
+			ReleaseScriptCaches (11ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (693ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (11ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.8 MB.
+System memory in use after: 267.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 5.925100 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.880800 ms  DeleteObjects: 2.598600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2087.903971 seconds.
+  path: Assets/Models/Crystal Cone/Crystal.fbx
+  artifactKey: Guid(1246ee5c042d2014799366e899599494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/Crystal.fbx using Guid(1246ee5c042d2014799366e899599494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a376d519f36bc0009fd7067cded9240') in 0.611419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Models/Crystal Cone/Star Crystal Shatter.fbx
+  artifactKey: Guid(34095c34b761e8c4a8f317b28bcd36ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/Star Crystal Shatter.fbx using Guid(34095c34b761e8c4a8f317b28bcd36ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f72f1fc2483093e5fcfd41297d8f4') in 1.638427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Models/Crystal Cone/crystalUnBroked.mat
+  artifactKey: Guid(9f9dd9a1c3f116f428ef26166d68882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/crystalUnBroked.mat using Guid(9f9dd9a1c3f116f428ef26166d68882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839f61540c8dabaf3c8af0be45bbd2a4') in 0.090182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Models/Crystal Cone/crystalBroked 1.mat
+  artifactKey: Guid(249142ddee9733e4b92b7b869c815c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/crystalBroked 1.mat using Guid(249142ddee9733e4b92b7b869c815c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381002fee1385eaafd431f9aa18355a2') in 0.029907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.798550 seconds.
+  path: Assets/Models/Crystal Cone/crystalBrokedPowerUp.mat
+  artifactKey: Guid(249142ddee9733e4b92b7b869c815c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Crystal Cone/crystalBrokedPowerUp.mat using Guid(249142ddee9733e4b92b7b869c815c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705cff7aa311383ed6d67c60598cd6d') in 0.028835 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.136917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2113ms)
+		BeginReloadAssembly (620ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1358ms)
+			LoadAssemblies (495ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.9 MB.
+System memory in use after: 267.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4136.
+Total: 79.315300 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.160900 ms MarkObjects: 44.360000 ms  DeleteObjects: 34.489900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 376.180149 seconds.
+  path: Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab
+  artifactKey: Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/New Folder/Crystal Gate.prefab using Guid(76e9497cbe4ab3148ac1adc8fbc1eaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Gate) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '2ea763a03d908c80f9daa84f7620b0a1') in 1.281013 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004243 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1356ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.9 MB.
+System memory in use after: 267.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 5.474800 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.176300 ms MarkObjects: 2.318200 ms  DeleteObjects: 2.680400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.068672 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.0 MB.
+System memory in use after: 267.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4143.
+Total: 5.908500 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.208200 ms MarkObjects: 2.688500 ms  DeleteObjects: 2.626200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 511.865154 seconds.
+  path: Assets/Models/Arc.fbx
+  artifactKey: Guid(06df7118658ef5f4b94b08df148d8df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Arc.fbx using Guid(06df7118658ef5f4b94b08df148d8df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e53a784cdb32b6d7cbbf922ce8ab97') in 0.299740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/Cube Shatter.fbx
+  artifactKey: Guid(e5bd4d282ce51ef44bd29711cd0f0e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cube Shatter.fbx using Guid(e5bd4d282ce51ef44bd29711cd0f0e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed9acfbc8398a02b9a25a7235901454') in 0.226925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Models/Hollow Box.fbx
+  artifactKey: Guid(482601c23eee3b6499d1b10b19e115df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hollow Box.fbx using Guid(482601c23eee3b6499d1b10b19e115df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44d72ac60c7188e5cd64269a15bcc07') in 0.091278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Models/Material.012.mat
+  artifactKey: Guid(75dea6a59fe81f94a93c9a8b0557e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.012.mat using Guid(75dea6a59fe81f94a93c9a8b0557e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032ba18d98041683436b2e5311a6019c') in 0.052019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/Traingle Shatter.fbx
+  artifactKey: Guid(a821e1d98d34c444aaee2052c1323e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Traingle Shatter.fbx using Guid(a821e1d98d34c444aaee2052c1323e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e6b81f7cb3a465d4cfc49e37842441') in 0.523031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/Pentagon Shatter (1).fbx
+  artifactKey: Guid(bc29ab4076a00474b98c94fa6c716c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pentagon Shatter (1).fbx using Guid(bc29ab4076a00474b98c94fa6c716c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc2eef0997566e98a5ae1c48fa971d') in 1.183385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Material.020.mat
+  artifactKey: Guid(783130815e754474596e8abb7d276838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.020.mat using Guid(783130815e754474596e8abb7d276838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bafed1177017c01bcbb7bd27c302f84') in 0.044378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/Hexagon Shatter.fbx
+  artifactKey: Guid(611be042374896e45add9f10648cf78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hexagon Shatter.fbx using Guid(611be042374896e45add9f10648cf78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8993e53628d572a35a4df5394b63d985') in 1.117544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Door New.fbx
+  artifactKey: Guid(7436f991d72b1d84394d54fd6f16aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Door New.fbx using Guid(7436f991d72b1d84394d54fd6f16aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d82e54670af5e40dd15af98c4223f9b') in 0.404762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/Material.017.mat
+  artifactKey: Guid(904ee11fa0fd6ef4ebd5849d40374ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.017.mat using Guid(904ee11fa0fd6ef4ebd5849d40374ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dcd0988bca683a03f0318229f10d1a') in 0.072986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Models/Material.019.mat
+  artifactKey: Guid(c6141645699384546af4acc9d20ebc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.019.mat using Guid(c6141645699384546af4acc9d20ebc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e42df58626d5754735db51e5c3a813') in 0.044037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Models/Material.018.mat
+  artifactKey: Guid(1aa369bc8e9c0e4478d8bff70a32f153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.018.mat using Guid(1aa369bc8e9c0e4478d8bff70a32f153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2c9bdc77922f447d7d03463be062f5') in 0.032508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Material.016.mat
+  artifactKey: Guid(b54d23bfd9ca73744ac5c68688fc7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.016.mat using Guid(b54d23bfd9ca73744ac5c68688fc7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72d53057769f0d1b907a9695adc684b') in 0.036736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Models/Material.015.mat
+  artifactKey: Guid(bfac4e2c2ee766e42a5d1f6a734a51c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.015.mat using Guid(bfac4e2c2ee766e42a5d1f6a734a51c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81151912c995e20938e1496b2dd4e565') in 0.059553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.413520 seconds.
+  path: Assets/ICE_sushishop/Textures/Normal_1.png
+  artifactKey: Guid(e3ba8bc476e919b4b9308f1d6abe660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Textures/Normal_1.png using Guid(e3ba8bc476e919b4b9308f1d6abe660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c3593b094c332bed15a046a82f088d') in 0.308155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ICE_sushishop/Textures/Normal_2.png
+  artifactKey: Guid(ed904cf92daa73944949abb5520bea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Textures/Normal_2.png using Guid(ed904cf92daa73944949abb5520bea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da9668fff6cd26c099c8e1bf409abb9') in 0.071553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/ICE_sushishop/Textures/TexturesCom_Ice_Cracked_1K_normal.tif
+  artifactKey: Guid(2b664eca7970ebd4f998e27fe72b6f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Textures/TexturesCom_Ice_Cracked_1K_normal.tif using Guid(2b664eca7970ebd4f998e27fe72b6f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad70d1303ff1be422184f7325a7f23f') in 0.131957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.312223 seconds.
+  path: Assets/ICE_sushishop/Materials/New Glass mat/Glass Slab 1.mat
+  artifactKey: Guid(6f04838b3ccebdc4298b4e4f83a2e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Materials/New Glass mat/Glass Slab 1.mat using Guid(6f04838b3ccebdc4298b4e4f83a2e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3946619590ac260890442ddd02cb2d6d') in 0.140350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ICE_sushishop/Materials/New Glass mat/Pyramid 1.mat
+  artifactKey: Guid(4aa6b2fb6b03b6d4a9377ec61f2a93c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Materials/New Glass mat/Pyramid 1.mat using Guid(4aa6b2fb6b03b6d4a9377ec61f2a93c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9c6e848fbd825da24dee489235b619') in 0.047675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.627196 seconds.
+  path: Assets/ICE_sushishop/Materials/Glass Slab.mat
+  artifactKey: Guid(24b5805f85ea8c24e89a709d8eb518b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ICE_sushishop/Materials/Glass Slab.mat using Guid(24b5805f85ea8c24e89a709d8eb518b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd937e998746bb6d9fffdbb3a5d5987') in 0.037885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.098169 seconds.
+  path: Assets/Models/Material.012.mat
+  artifactKey: Guid(75dea6a59fe81f94a93c9a8b0557e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Material.012.mat using Guid(75dea6a59fe81f94a93c9a8b0557e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c5d4ea4c3baac18440df1c0761358d') in 0.025555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.771082 seconds.
+  path: Assets/Materials/Arrow 3.mat
+  artifactKey: Guid(16581cb83a8d5f3468eaa1e5f65d3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Arrow 3.mat using Guid(16581cb83a8d5f3468eaa1e5f65d3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2993e74d48c53f9fa559a47c5f9644bd') in 0.518647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materials/Arrow 4.mat
+  artifactKey: Guid(e4cd9d4f84236d04997f59f8a3ad407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Arrow 4.mat using Guid(e4cd9d4f84236d04997f59f8a3ad407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa1bf624e783b26039249b6cd2a2aea') in 0.031019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.455614 seconds.
+  path: Assets/Materials/Arrow 3.mat
+  artifactKey: Guid(16581cb83a8d5f3468eaa1e5f65d3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Arrow 3.mat using Guid(16581cb83a8d5f3468eaa1e5f65d3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9d28d1b9fec5c208a6ebb06e0f18cb') in 0.090010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Materials/Arrow 4.mat
+  artifactKey: Guid(e4cd9d4f84236d04997f59f8a3ad407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Arrow 4.mat using Guid(e4cd9d4f84236d04997f59f8a3ad407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89bf7233993b5681c454e19e6de7d00') in 0.032305 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1315ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.0 MB.
+System memory in use after: 267.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4148.
+Total: 5.985400 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.990400 ms  DeleteObjects: 2.531400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.180121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1605ms)
+		BeginReloadAssembly (356ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (274ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.1 MB.
+System memory in use after: 267.5 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4151.
+Total: 5.920300 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.165600 ms MarkObjects: 2.385300 ms  DeleteObjects: 3.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1026.053101 seconds.
+  path: Assets/Imphenzia/GradientSky/Shaders
+  artifactKey: Guid(9be04701d9c87b242baa72e8807802ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imphenzia/GradientSky/Shaders using Guid(9be04701d9c87b242baa72e8807802ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b0ecd701bb0e2d2b17b849a25f6717') in 0.086259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Imphenzia/GradientSky
+  artifactKey: Guid(551c9f8e150ae8e46bffa918415f420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imphenzia/GradientSky using Guid(551c9f8e150ae8e46bffa918415f420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e2ea44156c0b84617a66c410c45f66') in 0.025824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Imphenzia/GradientSky/Scripts
+  artifactKey: Guid(6bc8dbdfe2755984da5d9e881f5cde75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imphenzia/GradientSky/Scripts using Guid(6bc8dbdfe2755984da5d9e881f5cde75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51041911450cfb71f32b839282ee36b8') in 0.006380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Imphenzia/GradientSky/Scripts/Common
+  artifactKey: Guid(6312dce119c5c0f4a95a47b2e531cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imphenzia/GradientSky/Scripts/Common using Guid(6312dce119c5c0f4a95a47b2e531cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126dc5a1beb9aa086523100086bd8464') in 0.006259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.598722 seconds.
+  path: Assets/ErbGameArt/3D Lasers Pack
+  artifactKey: Guid(209ca8029569cb444bc0d33baa9e0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ErbGameArt/3D Lasers Pack using Guid(209ca8029569cb444bc0d33baa9e0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e23b8cdb917a2330dd41772ee57427e') in 0.036871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.768802 seconds.
+  path: Assets/Example/ColouredFog.mat
+  artifactKey: Guid(56cb2f1b09d558e4eb3ccbef3f8ee876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/ColouredFog.mat using Guid(56cb2f1b09d558e4eb3ccbef3f8ee876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3fb8aafe5a1a49134cdf70381a5bb9') in 1.042539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Example/New Terrain.asset
+  artifactKey: Guid(42fa0ad463330fc4d853832f2fd3c5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/New Terrain.asset using Guid(42fa0ad463330fc4d853832f2fd3c5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3248e108463c7e5345e523fb69dea163') in 0.238931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Example/Sky.mat
+  artifactKey: Guid(b060631675509c6418f579482f40c4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/Sky.mat using Guid(b060631675509c6418f579482f40c4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f0d7bd4edd16e1462f73e1ec5cec61') in 0.589827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Example/fogRamp.png
+  artifactKey: Guid(4274b499c21d5074cbae3ad369402039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/fogRamp.png using Guid(4274b499c21d5074cbae3ad369402039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7860016858aa920933ca570083fec037') in 0.134097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Example/rainbowramp.png
+  artifactKey: Guid(9fb8d30f8beab4249b4a9b7587e05253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/rainbowramp.png using Guid(9fb8d30f8beab4249b4a9b7587e05253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a16e918a71b5242631a91b987b18f58') in 0.137775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.704670 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps
+  artifactKey: Guid(b40198e48fec1db4ba2bdbb96a9e1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps using Guid(b40198e48fec1db4ba2bdbb96a9e1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600b06a29982df4f8f28cae01d5c6c54') in 0.019121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.464700 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002
+  artifactKey: Guid(84e67ed20e6185846b3371dbdcab2863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002 using Guid(84e67ed20e6185846b3371dbdcab2863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e9734d649cbbbec2c0c316bae1fa50') in 0.018858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079314 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat
+  artifactKey: Guid(94d852a7748a347489661febea5eafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat using Guid(94d852a7748a347489661febea5eafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c859e097478030addee599759d6a632f') in 0.291643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat
+  artifactKey: Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat using Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf11381b69d082fe5c8e108471e9d42') in 0.067533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat
+  artifactKey: Guid(1dfc2aa9d900889499587bd874c3da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat using Guid(1dfc2aa9d900889499587bd874c3da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b54907841d00b72c1bce7be5838b6f') in 0.014938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat
+  artifactKey: Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat using Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3f53060662e6679503ce0b8cdb2802') in 0.096766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat
+  artifactKey: Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat using Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106b37f8935ba0c966daf76c11c1fedb') in 0.024679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat
+  artifactKey: Guid(eb8fd6bd252589744b602770b09ccbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat using Guid(eb8fd6bd252589744b602770b09ccbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43967e4960fd19f897093d6dea431e31') in 0.016348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(9c94282089393fd4dba21f9f9b72149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Moonless_Cubemap.mat using Guid(9c94282089393fd4dba21f9f9b72149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cba9a8c38e4cc57661848b5e0d5229') in 0.033224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat
+  artifactKey: Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat using Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4946e5471de94ec1239878b383c9509e') in 0.017059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.734448 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_front.png
+  artifactKey: Guid(2ad190412b7214d4dbac8b94d41040ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_front.png using Guid(2ad190412b7214d4dbac8b94d41040ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591ee79980f5771ce1494787a210542e') in 0.034043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_right.png
+  artifactKey: Guid(80c88082f8ee85e43906e07025f0b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_right.png using Guid(80c88082f8ee85e43906e07025f0b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc656f14dee7fd0bec1f785e2a68d3f8') in 0.027059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_down.png
+  artifactKey: Guid(20556ff95cea2fa44a44cd07980dae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_down.png using Guid(20556ff95cea2fa44a44cd07980dae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f847cd415e447cabb3dc8f79cf1756e') in 0.032119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png
+  artifactKey: Guid(f51f90147d7350747957e1c406e8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png using Guid(f51f90147d7350747957e1c406e8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12478b020343748fe2322729efefa8c') in 0.013140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_back.png
+  artifactKey: Guid(ceb380b2cee94b64ca5f68c23e9cc957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_back.png using Guid(ceb380b2cee94b64ca5f68c23e9cc957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a048aac611678abc16b5c1e6617cf5') in 0.043811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png
+  artifactKey: Guid(c9a386eb63853164db9186b026d55a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png using Guid(c9a386eb63853164db9186b026d55a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61c009753979f292ca7d97161c2875c') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.843965 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images
+  artifactKey: Guid(5b2d5485e96a77647ba075f272f9dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images using Guid(5b2d5485e96a77647ba075f272f9dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b473dfd35217880600561079d947faa') in 0.005780 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1249ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.5 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4158.
+Total: 7.560200 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.242200 ms MarkObjects: 3.218300 ms  DeleteObjects: 3.704400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1008ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.0 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4161.
+Total: 6.022500 ms (FindLiveObjects: 0.407400 ms CreateObjectMapping: 0.206300 ms MarkObjects: 2.309500 ms  DeleteObjects: 3.098300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004033 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.0 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4164.
+Total: 5.444100 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.183100 ms MarkObjects: 2.470400 ms  DeleteObjects: 2.488000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003895 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1224ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.0 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4167.
+Total: 5.373800 ms (FindLiveObjects: 0.289200 ms CreateObjectMapping: 0.159500 ms MarkObjects: 2.374500 ms  DeleteObjects: 2.549800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.317719 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github Unity Projects\BreakBalls-HyperCasual\Break Balls HyperCasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2975ms)
+		BeginReloadAssembly (633ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2294ms)
+			LoadAssemblies (1893ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.0 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4170.
+Total: 5.594200 ms (FindLiveObjects: 0.299900 ms CreateObjectMapping: 0.159600 ms MarkObjects: 2.419700 ms  DeleteObjects: 2.714200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
